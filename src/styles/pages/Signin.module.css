@@ -1,0 +1,104 @@
+.signinContainer {
+  height: 100vh;
+
+  display: flex;
+
+  background-color: #5965e0;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+
+  padding: 90px 90px 90px 0;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right header {
+  margin-bottom: 80px;
+}
+
+.right main > span {
+  font-size: 36px;
+  color: var(--white);
+}
+
+.right main div.welcome {
+  display: flex;
+
+  color: #b2b9ff;
+
+  width: 260px;
+  margin: 24px 0 50px;
+}
+
+.right main div.welcome img {
+  margin-right: 15px;
+}
+
+.right main div.signin {
+  display: flex;
+}
+
+.right main div.signin input {
+  width: 340px;
+
+  font-size: 20px;
+
+  color: #b2b9ff;
+  padding-left: 30px;
+  border: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background: linear-gradient(90deg, rgb(73 83 184), rgb(0 0 0 / 0%));
+}
+
+.right main div.signin input::placeholder {
+  color: #b2b9ff;
+}
+
+.right main div.signin button {
+  height: 80px;
+  /* width: 80px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #b2b9ff;
+  border: 0;
+  border-radius: 4px;
+  background: #4953b8;
+  padding: 20px;
+  transition: opacity 0.3s;
+  margin: 24px 0;
+}
+
+.right main div.signin button:hover {
+  opacity: 0.7;
+}
+
+/* .right main div.signin button img {
+  height: 15px;
+  width: 15px;
+} */
+
+.right main div.signin.welcome {
+  display: flex;
+
+  color: #b2b9ff;
+
+  width: 260px;
+  margin: 24px 0 50px;
+}
+
+.right main div.signin button.welcome img {
+  margin-right: 15px;
+}
